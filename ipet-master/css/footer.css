@@ -1,0 +1,31 @@
+footer {
+			background: -webkit-linear-gradient(left, #ffbce6, #cd8af5);
+			background: -o-linear-gradient(right, #ffbce6, #cd8af5);
+			background: -moz-linear-gradient(right, #ffbce6, #cd8af5);
+			background: linear-gradient(to right, #ffbce6, #cd8af5);
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: row-reverse;
+			flex-direction: row;
+			position: fixed;bottom: 0px;
+			width: 100%;
+			height:3rem;
+		}	
+		footer .dll{
+			flex: 1;
+			height:2.5rem;
+			margin: 0px;
+			text-align:center;
+		}
+		footer .dll dd,footer .dll dt{
+			margin: 0px;
+			padding: 0px;		
+		}
+		footer .dll dd{
+			font-size:0.8rem;
+			margin-top:-0.3rem;
+			color: white;
+		}
+		footer i{
+			color: white;
+		}
